@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Eurolotto Picker</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<main class="picker">
+			<h1>Eurolotto Picker</h1>
+
+			<div class="numbers-line" id="numbers-line" aria-live="polite">
+				<ol class="numbers-group main-numbers" id="main-numbers"></ol>
+				<span class="plus">+</span>
+				<ol class="numbers-group star-numbers" id="star-numbers"></ol>
+			</div>
+
+			<button id="generate-btn" type="button">Generate Numbers</button>
+		</main>
+
+		<script src="script.js"></script>
+	</body>
+</html>
